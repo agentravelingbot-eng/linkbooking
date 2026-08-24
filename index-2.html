@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pelabuhan Online — Pusat Administrasi Tiket</title>
+<meta name="description" content="Pusat administrasi dan informasi tiket perjalanan melalui pelabuhan secara online.">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;color:#102033;background:#eef3f7}
+header{background:#fff;border-bottom:1px solid #dbe4ec}.nav{max-width:1120px;margin:auto;padding:18px 22px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:21px;font-weight:900;color:#0b3d62}.logo small{display:block;font-size:10px;letter-spacing:2px;color:#728096;margin-top:3px}
+nav a{margin-left:18px;text-decoration:none;color:#34465a;font-weight:700;font-size:14px}
+.hero{max-width:1120px;margin:28px auto;padding:0 22px}.heroBox{background:#0b3d62;border-radius:28px;padding:55px 48px;color:white;position:relative;overflow:hidden}
+.heroBox:after{content:"";position:absolute;width:280px;height:280px;border-radius:50%;right:-100px;top:-120px;background:#167ca8}
+.kicker{font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:#b9e4f4;font-weight:800}
+h1{font-size:clamp(34px,6vw,60px);line-height:1.02;max-width:760px;margin:14px 0}
+.hero p{max-width:700px;line-height:1.8;color:#dbeaf3;font-size:17px}
+.search{margin-top:28px;background:white;padding:16px;border-radius:17px;color:#102033;display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:10px;position:relative;z-index:2}
+input,select,button{padding:13px;border:1px solid #d5dee7;border-radius:10px;font:inherit}button{background:#0b3d62;color:white;border:0;font-weight:800;cursor:pointer}
+main{max-width:1120px;margin:auto;padding:20px 22px 60px}.title{margin-top:42px}.title h2{margin:0;font-size:30px}.title p{color:#68788a;line-height:1.7}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:20px}.card{background:white;border:1px solid #dce5ec;border-radius:17px;padding:22px;min-height:170px}.icon{font-size:25px}.card h3{margin:12px 0 8px}.card p{font-size:14px;line-height:1.65;color:#607083}
+.workflow{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:22px;background:white;border:1px solid #dce5ec;border-radius:18px;overflow:hidden}.step{padding:25px;border-right:1px solid #e4ebf0}.step:last-child{border:0}.num{font-size:12px;font-weight:900;color:#167ca8}
+.info{display:grid;grid-template-columns:1.4fr .6fr;gap:18px;margin-top:28px}.panel{background:white;border:1px solid #dce5ec;border-radius:18px;padding:26px}.panel h2{margin-top:0}.list{padding-left:20px;line-height:1.9;color:#526477}
+.alert{background:#f8fbfd;border-left:4px solid #167ca8;padding:17px;border-radius:10px;line-height:1.7;color:#526477}
+.wa{display:inline-flex;align-items:center;gap:8px;margin-top:14px;background:#168c55;color:white;padding:12px 16px;border-radius:10px;text-decoration:none;font-weight:800}.wa:hover{opacity:.92}
+footer{background:#102033;color:#c9d5df;padding:38px 22px}.foot{max-width:1120px;margin:auto;display:flex;justify-content:space-between;gap:20px}.foot strong{color:white}
+@media(max-width:800px){nav a{display:none}.heroBox{padding:38px 24px}.search,.cards,.workflow,.info{grid-template-columns:1fr}.step{border-right:0;border-bottom:1px solid #e4ebf0}.foot{display:block}}
+</style>
+</head>
+<body>
+<header>
+<div class="nav">
+<div class="logo">LINKBOOKING <small>PORT & TICKET SERVICE</small></div>
+<nav><a href="#layanan">Layanan</a><a href="#proses">Proses</a><a href="#informasi">Informasi</a></nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="heroBox">
+<div class="kicker">Administrasi Tiket Online</div>
+<h1>Satu pintu untuk kebutuhan tiket perjalanan melalui pelabuhan.</h1>
+<p>Temukan informasi perjalanan, siapkan data penumpang, dan ajukan bantuan administrasi pemesanan secara online.</p>
+<div class="search">
+<input placeholder="Pelabuhan asal">
+<input placeholder="Pelabuhan tujuan">
+<input type="date">
+<button onclick="window.open('https://wa.me/6283137724289?text=Halo%2C%20saya%20ingin%20cek%20tiket%20perjalanan%20melalui%20pelabuhan.%20Asal%3A%20%20Tujuan%3A%20%20Tanggal%3A%20%27,%20%27_blank%27)">Cek</button>
+</div>
+</div>
+</section>
+
+<main>
+<section id="layanan">
+<div class="title"><h2>Apa yang bisa dibantu?</h2><p>Layanan dirancang untuk memudahkan masyarakat sebelum dan selama proses administrasi tiket.</p></div>
+<div class="cards">
+<div class="card"><div class="icon">◉</div><h3>Jadwal & Rute</h3><p>Bantuan mengecek rute, pelabuhan asal-tujuan, dan jadwal yang tersedia.</p></div>
+<div class="card"><div class="icon">▣</div><h3>Data Penumpang</h3><p>Panduan menyiapkan data sesuai kebutuhan sistem pemesanan.</p></div>
+<div class="card"><div class="icon">Rp</div><h3>Tarif & Ketentuan</h3><p>Informasi biaya dan ketentuan perlu dikonfirmasi sebelum transaksi.</p></div>
+<div class="card"><div class="icon">24</div><h3>Layanan Online</h3><p>Pesan dapat dikirim 24 jam; respons mengikuti ketersediaan petugas dan sistem.</p></div>
+</div>
+</section>
+
+<section id="proses">
+<div class="title"><h2>Proses sederhana</h2><p>Dibuat singkat agar mudah digunakan dari telepon genggam.</p></div>
+<div class="workflow">
+<div class="step"><div class="num">01</div><h3>Isi rute</h3><p>Masukkan asal, tujuan, dan tanggal perjalanan.</p></div>
+<div class="step"><div class="num">02</div><h3>Cek</h3><p>Informasi diperiksa pada sistem/operator yang relevan.</p></div>
+<div class="step"><div class="num">03</div><h3>Konfirmasi</h3><p>Nama, jadwal, tarif, dan data pesanan dikonfirmasi.</p></div>
+<div class="step"><div class="num">04</div><h3>Selesaikan</h3><p>Transaksi diselesaikan sesuai kanal pembayaran yang sah.</p></div>
+</div>
+</section>
+
+<section id="informasi">
+<div class="info">
+<div class="panel"><h2>Yang perlu disiapkan</h2><ul class="list"><li>Pelabuhan asal dan tujuan</li><li>Tanggal perjalanan</li><li>Jumlah penumpang</li><li>Nama sesuai identitas</li><li>Nomor WhatsApp aktif</li><li>Data lain sesuai ketentuan operator</li></ul></div>
+<div class="panel"><h2>Keamanan</h2><div class="alert">Jangan kirim OTP, PIN, kata sandi, atau informasi perbankan melalui chat.</div><div class="alert" style="margin-top:12px">Periksa kembali detail tiket sebelum melakukan pembayaran.</div></div>
+</div>
+<div class="panel" style="margin-top:18px"><h2>Hubungi WhatsApp Perusahaan</h2><p style="line-height:1.8;color:#526477">Untuk informasi dan bantuan administrasi tiket, hubungi layanan WhatsApp perusahaan:</p><a class="wa" href="https://wa.me/6283137724289" target="_blank" rel="noopener">WhatsApp +62 831-3772-4289</a></div><div class="panel" style="margin-top:18px"><h2>Status layanan</h2><p style="line-height:1.8;color:#526477"><strong>linkbooking.org</strong> adalah halaman layanan informasi/administrasi. Website ini tidak menyatakan sebagai bagian dari pelabuhan, perusahaan pelayaran, atau instansi pemerintah tanpa penunjukan resmi. Informasi tarif, jadwal, ketersediaan, pembayaran, perubahan, dan pembatalan mengikuti operator yang bersangkutan.</p></div>
+</section>
+</main>
+
+<footer><div class="foot"><div><strong>LINKBOOKING</strong><br>Administrasi Tiket Online via Pelabuhan</div><div>Website: linkbooking.org<br>WhatsApp Perusahaan: +62 831-3772-4289</div></div></footer>
+</body>
+</html>
